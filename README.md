@@ -43,17 +43,13 @@
 
 ``` echo "'gem install rails',"  >> gulpfile.js ```
 
-``` echo "'echo -n "Enter the name of your app"' " >> gulpfile.js ```
-
-``` echo "' read -n appName" >> gulpfile.js ```
-
-``` echo "'rails new "$appName"'," >> gulpfile.js ```
+``` echo "'rails new "[appName]"'," >> gulpfile.js ```
 
 ``` echo "]);" >> gulpfile.js ``` 
 
 # CD into your new app and run server
 
-```	cd your_app_name ```
+```	cd [appName] ```
 
 ``` rails s ```
 
