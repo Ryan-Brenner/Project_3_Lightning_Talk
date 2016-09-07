@@ -1,3 +1,4 @@
+This walthrough will guide you through creating a basic app with meteor and then using a task runner (Gulp) to build a basic rails app.
 
 #Install meteor
 ``` curl https://install.meteor.com/ | sh ```
