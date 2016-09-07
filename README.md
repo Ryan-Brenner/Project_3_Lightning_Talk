@@ -10,7 +10,8 @@
 
 #Install gulp-shell 
 ``` npm install --save-dev gulp-shell ```
- /* save for dev mode package:gulp-shell */ 
+
+ #### save for dev mode package:gulp-shell 
 
 #Make a gulpfile
  ``` touch gulpfile.js```
@@ -55,6 +56,7 @@
 ```	cd your_app_name ```
 
 ``` rails s ```
+
 Go to your localhost in your browser,
 you've now built an app with a task
 
