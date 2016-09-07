@@ -50,12 +50,12 @@
 
 ``` echo "]);" >> gulpfile.js ``` 
 
-*CD into your new app and run server
+# CD into your new app and run server
 
 ```	cd your_app_name ```
 
 ``` rails s ```
-
+Go to your localhost in your browser,
 you've now built an app with a task
 
 
