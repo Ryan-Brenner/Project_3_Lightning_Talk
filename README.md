@@ -29,17 +29,24 @@ echo "]);" >> gulpfile.js ```
 /* echo "text being written into file" > gulpfile.js */
 /* echo "text being appended to file" >> gulpfile.js */
 
-``` echo "gulp.task('mean rails', shell.task([ " >> gulpfile.js ``` /n
-``` echo "'rvm use 2.3.0'," >> gulpfile.js ``` /n
-``` echo "'gem install rails',"  >> gulpfile.js ``` /n
-``` echo "'echo -n "Enter the name of your app"' " >> gulpfile.js ``` /n
-``` echo "' read -n appName" >> gulpfile.js ``` /n
-``` echo "'rails new "$appName"'," >> gulpfile.js ``` /n
+``` echo "gulp.task('mean rails', shell.task([ " >> gulpfile.js ```
+
+``` echo "'rvm use 2.3.0'," >> gulpfile.js ```
+
+``` echo "'gem install rails',"  >> gulpfile.js ```
+
+``` echo "'echo -n "Enter the name of your app"' " >> gulpfile.js ```
+
+``` echo "' read -n appName" >> gulpfile.js ```
+
+``` echo "'rails new "$appName"'," >> gulpfile.js ```
+
 ``` echo "]);" >> gulpfile.js ``` 
 
 *CD into your new app and run server
 
 ```	cd your_app_name ```
+
 ``` rails s ```
 
 you've now built an app with a task
