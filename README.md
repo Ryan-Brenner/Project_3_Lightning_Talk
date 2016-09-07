@@ -6,6 +6,8 @@ This walthrough will guide you through creating a basic app with meteor and then
 #Create App with Meteor 
 ``` meteor create [app Name] ```
 
+``` cd [app Name] ```
+
 #Install gulp 
  ``` npm install gulp ```
 
@@ -20,6 +22,8 @@ This walthrough will guide you through creating a basic app with meteor and then
 #Require The Proper Packages and Build a CLI Task
 
 ``` echo " var gulp = require('gulp'); " > gulpfile.js ```
+
+``` echo " var shell = require('gulp-shell') " >> gulpfile.js ```
 
 ``` echo >> gulpfile.js ```
 
@@ -38,15 +42,15 @@ This walthrough will guide you through creating a basic app with meteor and then
 ### echo "text being written into file" > gulpfile.js 
 ### echo "text being appended to file" >> gulpfile.js 
 
-``` echo "gulp.task('mean rails', shell.task([ " >> gulpfile.js ```
+``` echo "gulp.task('meanRails', shell.task([ " >> gulpfile.js ```
 
 ``` echo "'rvm use 2.3.0'," >> gulpfile.js ```
 
 ``` echo "'gem install rails',"  >> gulpfile.js ```
 
-``` echo "'rails new "[appName]"'," >> gulpfile.js ```
+``` echo "'rails new [appName]'" >> gulpfile.js ```
 
-``` echo "]);" >> gulpfile.js ``` 
+``` echo "]))" >> gulpfile.js ``` 
 
 # CD into your new app and run server
 
