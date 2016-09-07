@@ -16,7 +16,7 @@
 #Make a gulpfile
  ``` touch gulpfile.js```
 
-#require the proper files and build a CLI task
+#Require The Proper Packages and Build a CLI Task
 
 ``` echo " var gulp = require('gulp'); " > gulpfile.js ```
 
