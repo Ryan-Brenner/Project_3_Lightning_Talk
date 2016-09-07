@@ -22,6 +22,7 @@
 ``` echo >> gulpfile.js ```
 
 ``` echo "gulp.task('this-task', shell.task([ " >> gulpfile.js ```
+
 ``` echo "/* place CLI commands here for what you want to happen in response to 'gulp this-task' */" >> gulpfile.js ```
 
 ``` echo "/* separate lines of command with a ',' */" ```
