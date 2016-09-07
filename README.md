@@ -1,22 +1,21 @@
 
-* Install meteor
+#Install meteor
 ``` curl https://install.meteor.com/ | sh ```
 
-
-*Create App with Meteor 
+#Create App with Meteor 
 ``` meteor create [app Name] ```
 
- *Install gulp 
+#Install gulp 
  ``` npm install gulp ```
 
-*Install gulp-shell 
+#Install gulp-shell 
 ``` npm install --save-dev gulp-shell ```
  /* save for dev mode package:gulp-shell */ 
 
- *Make a gulpfile
+#Make a gulpfile
  ``` touch gulpfile.js```
 
-*require the proper files and build a CLI task
+#require the proper files and build a CLI task
 
 ``` echo " var gulp = require('gulp'); " > gulpfile.js
 echo >> gulpfile.js
@@ -30,13 +29,13 @@ echo "]);" >> gulpfile.js ```
 /* echo "text being written into file" > gulpfile.js */
 /* echo "text being appended to file" >> gulpfile.js */
 
-``` echo "gulp.task('mean rails', shell.task([ " >> gulpfile.js
-	echo "'rvm use 2.3.0'," >> gulpfile.js
-	echo "'gem install rails',"  >> gulpfile.js
-	echo "'echo -n "Enter the name of your app"' " >> gulpfile.js
-	echo "' read -n appName" >> gulpfile.js
-	echo "'rails new "$appName"'," >> gulpfile.js
-	echo "]);" >> gulpfile.js ```
+``` echo "gulp.task('mean rails', shell.task([ " >> gulpfile.js ``` /n
+``` echo "'rvm use 2.3.0'," >> gulpfile.js ``` /n
+``` echo "'gem install rails',"  >> gulpfile.js ``` /n
+``` echo "'echo -n "Enter the name of your app"' " >> gulpfile.js ``` /n
+``` echo "' read -n appName" >> gulpfile.js ``` /n
+``` echo "'rails new "$appName"'," >> gulpfile.js ``` /n
+``` echo "]);" >> gulpfile.js ``` 
 
 *CD into your new app and run server
 
