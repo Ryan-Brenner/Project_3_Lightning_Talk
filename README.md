@@ -18,24 +18,15 @@
 #require the proper files and build a CLI task
 
 ``` echo " var gulp = require('gulp'); " > gulpfile.js ```
-
 ``` echo >> gulpfile.js ```
-
 ``` echo "gulp.task('this-task', shell.task([ " >> gulpfile.js ```
-
 ``` echo "/* place CLI commands here for what you want to happen in response to 'gulp this-task' */" >> gulpfile.js ```
-
 ``` echo "/* separate lines of command with a ',' */" ```
-
 ``` echo " 'echo hello', " >> gulpfile.js ```
-
 ``` echo " 'echo world' " >> gulpfile.js ```
-
 ``` echo "]);" >> gulpfile.js ```
-
-/* echo "text being written into file" > gulpfile.js */
-
-/* echo "text being appended to file" >> gulpfile.js */
+### echo "text being written into file" > gulpfile.js 
+### echo "text being appended to file" >> gulpfile.js 
 
 ``` echo "gulp.task('mean rails', shell.task([ " >> gulpfile.js ```
 
