@@ -11,7 +11,7 @@
 #Install gulp-shell 
 ``` npm install --save-dev gulp-shell ```
 
- #### save for dev mode package:gulp-shell 
+#### save for dev mode package:gulp-shell 
 
 #Make a gulpfile
  ``` touch gulpfile.js```
